@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+.container{ 
+ width: 80%; 
+ margin: 0 auto; 
+} 
+.row{ 
+    margin-top: 121px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+.logo{ 
+    display: flex; 
+    align-items: center; 
+} 
+.logo h1{ 
+    font-family: Roboto; 
+    font-size: 36px; 
+    font-style: italic; 
+    font-weight: 900; 
+    line-height: 42.19px; 
+} 
+ 
+ul{ 
+    display: flex; 
+    align-items: center; 
+    list-style-type: none; 
+    gap: 25px; 
+} 
+li a{ 
+    text-decoration: none; 
+    font-family: Roboto; 
+    font-size: 18px; 
+    font-weight: 300; 
+    line-height: 21.09px; 
+    text-align: center; 
+    color: #737373; 
+} 
+ 
+ 
+.tex h1{ 
+    margin-top: 189px; 
+    font-family: Roboto; 
+    font-size: 50px; 
+    font-weight: 900; 
+    line-height: 58.59px; 
+} 
+.roww{ 
+    display: flex; 
+    gap:25px ; 
+    align-items: center;   
+} 
+button{ 
+    margin-top:58px ; 
+    padding: 15px 25px; 
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%); 
+    border: none; 
+    border-radius: 10px; 
+    font-family: Roboto; 
+    font-size: 20px; 
+    font-weight: 900; 
+    line-height: 23.44px; 
+    text-align: center; 
+    color: white; 
+} 
+h2{ 
+    margin-bottom: 120px; 
+    font-family: Roboto; 
+    font-size: 50px; 
+    font-weight: 400; 
+    line-height: 58.59px; 
+    text-align: center; 
+} 
+span{ 
+    font-family: Roboto; 
+    font-size: 50px; 
+    font-weight: 400; 
+    line-height: 58.59px; 
+    text-align: center; 
+    color: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%); 
+} 
+.card{ 
+    width: 350px; 
+    box-shadow: 0px 0px 40px 0px #B8005F33; 
+    border-radius: 10px; 
+    margin: 0 auto; 
+} 
+.card p{ 
+    color: #737373; 
+    /* padding: 22px; */ 
+    font-family: Roboto; 
+    font-size: 14px; 
+    font-weight: 300; 
+    line-height: 16.41px; 
+} 
+.card img{ 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    width: 100%; 
+    /* height: 313px; */ 
+    /* opacity: 0.5; */ 
+} 
+.texts{ 
+    padding: 22px; 
+} 
+.card h3{ 
+    font-family: Roboto; 
+    font-size: 36px; 
+    font-weight: 700; 
+    line-height: 42.19px; 
+    /* padding: 22px; */ 
+} 
+.ss{ 
+    display: flex; 
+    gap: 61px; 
+    justify-content: center; 
+} 
+.articul{ 
+    padding: 90px; 
+    margin-top: 225px; 
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+    justify-content: space-between; 
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%); 
+} 
+.aa{ 
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%); 
+} 
+.articul img{ 
+    /* font-size: 20px; */ 
+} 
+.cardd{ 
+    position: relative; 
+    padding: 40px; 
+    border-radius: 9px; 
+    width: 536px; 
+    background-color: white; 
+    box-shadow: 0px 0px 30px 0px #00000040; 
+    opacity: 0.4; 
+} 
+.cardd img { 
+    position: absolute; 
+    left:140px; 
+    top:-100px; 
+} 
+.carddd img{ 
+    position: absolute; 
+    top: -100px; 
+    left: 140px; 
+} 
+.cards img{ 
+    position: absolute; 
+    top: -100px; 
+    left: 140px; 
+} 
+.rowss{ 
+    display: flex; 
+    gap: 70px; 
+    align-items: center; 
+} 
+.cards{ 
+    padding: 40px; 
+    border-radius: 9px; 
+    /* display: flex; */ 
+    gap: 70px; 
+    position: relative; 
+    width: 536px; 
+    background-color: white; 
+    box-shadow: 0px 0px 30px 0px #00000040; 
+    opacity: 0.4; 
+    /* display: flex; */ 
+    justify-content: end; 
+} 
+ 
+.carddd{ 
+    padding: 40px; 
+    border-radius: 9px; 
+    /* display: flex; */ 
+    gap: 70px; 
+    width: 536px; 
+    position: relative; 
+    background-color: white; 
+    box-shadow: 0px 0px 0px 30px 0px #00000040; 
+} 
+ 
+ 
+.line{ 
+    border-radius: 2px solid; 
+    width: 130px; 
+    height: 2px; 
+    border-image-source: linear-gradient(90.14deg, #D4145A 3.35%, #3D5BF5 91.43%); 
+ 
+} 
+.about-us{ 
+    padding: 300px; 
+    display: flex; 
+    gap: 141px; 
+} 
+.i img { 
+    width: 33px; 
+    margin-top: 6px; 
+} 
+ 
+h5{ 
+    font-family: Roboto; 
+    font-size: 14px; 
+    font-weight: 700; 
+    line-height: 16.41px; 
+} 
+.s p{ 
+    margin-top: 10px; 
+    font-family: Roboto; 
+    font-size: 14px; 
+    font-weight: 300; 
+    line-height: 16px; 
+} 
+.n p{ 
+    margin-top: 10px; 
+    font-family: Roboto; 
+    font-size: 14px; 
+    font-weight: 300; 
+    line-height: 16px; 
+} 
+ 
+@media (max-width:800px) { 
+    .about-us{ 
+        padding: 60px; 
+    } 
+    .s p{ 
+        font-family: Roboto; 
+        font-size: 14px; 
+        font-weight: 300; 
+        line-height: 16px; 
+    } 
+    .n p{ 
+        font-family: Roboto; 
+        font-size: 14px; 
+        font-weight: 300; 
+        line-height: 16px; 
+    } 
+    h5{ 
+        font-family: Roboto; 
+        font-size: 14px; 
+        font-weight: 700; 
+        line-height: 16.41px; 
+    } 
+    .ul{ 
+        display: none; 
+    } 
+    /* .row ul{ 
+        display: none; 
+    } */ 
+     .container{ 
+        width: 90%; 
+     } 
+     .roww img{ 
+        width: 368px; 
+     } 
+     .tex h1{ 
+        margin-top: 61px; 
+        font-family: Roboto; 
+        font-size: 40px; 
+        font-weight: 900; 
+        line-height: 40px; 
+     } 
+     button{ 
+        font-family: Roboto; 
+        font-size: 15px; 
+        font-weight: 900; 
+        line-height: 17.58px; 
+        text-align: center; 
+        padding: 12px 22px; 
+     } 
+     .card p{ 
+    font-family: Roboto; 
+    font-size: 14px; 
+    font-weight: 300; 
+    line-height: 16.41px; 
+    text-align: left; 
+ 
+     } 
+     .rowss{ 
+        flex-direction: column; 
+     } 
+     .main h2{ 
+        margin-bottom: 48px; 
+        margin-top: 30px; 
+    font-family: Roboto; 
+    font-size: 40px; 
+    font-weight: 400; 
+    line-height: 46.88px; 
+    text-align: center; 
+     } 
+     .main span{ 
+    font-family: Roboto; 
+    font-size: 40px; 
+    font-weight: 400; 
+    line-height: 46.88px; 
+    text-align: center; 
+     } 
+     .ss{ 
+        flex-direction: column-reverse; 
+     } 
+     .card{ 
+        width: 719px; 
+        /* height: 313px; */ 
+     } 
+     .aa{ 
+    flex-direction: column; 
+     } 
+     .articul{ 
+        margin-top: 70px; 
+        flex-direction: column; 
+        margin: 0 auto; 
+     } 
+    .cardd{ 
+        opacity: 1; 
+        margin-top: 30px; 
+    } 
+    .carddd{ 
+        margin-top: 70px; 
+    } 
+    .cards{ 
+        opacity: 1; 
+        margin-top: 70px; 
+    } 
+    .cardd img{ 
+        position: absolute; 
+        top: -100px; 
+        left: 190px; 
+    } 
+    .carddd img{ 
+        position: absolute; 
+        top: -100px; 
+        left: 190px; 
+    } 
+    .cards img{ 
+        position: absolute; 
+        top: -100px; 
+        left: 190px; 
+    } 
+ 
+} 
+ 
+@media (max-width:320px) { 
+    .about-us{ 
+        padding: 48px; 
+        display:flex; 
+        gap: 10px; 
+        flex-direction: column; 
+        text-align: center; 
+    } 
+    .roww img{ 
+        display: none; 
+    } 
+    .tex h1{ 
+        font-family: Roboto; 
+        font-size: 25px; 
+        font-weight: 900; 
+        line-height: 25px; 
+        text-align: center; 
+ 
+    } 
+    .EVA{ 
+        display: none; 
+    } 
+    
+ 
+    .tex{ 
+        text-align: center; 
+        margin: 0 auto; 
+    } 
+    .tex button{ 
+        font-family: Roboto; 
+        font-size: 10px; 
+        font-weight: 900; 
+        line-height: 11.72px; 
+        text-align: center; 
+        margin: 0 auto; 
+        margin-top: 20px; 
+    } 
+     
+    .roww img{ 
+        display: none; 
+    } 
+    .main h2{ 
+        margin-top: 53px; 
+        font-family: Roboto; 
+        font-size: 20px; 
+        font-weight: 400; 
+        line-height: 23.44px; 
+        text-align: center; 
+        margin: 0 auto; 
+        margin-top: 30px; 
+        margin-bottom: 30px; 
+    } 
+    .main h2 span{ 
+        font-family: Roboto; 
+        font-size: 20px; 
+        font-weight: 400; 
+        line-height: 23.44px; 
+        text-align: center; 
+    } 
+    .ss{ 
+       flex-direction: column;  
+    } 
+    .articul{ 
+        flex-direction: column; 
+        margin: 0 auto; 
+    } 
+    .card{ 
+        width: 280px; 
+        margin: 0 auto; 
+    } 
+    .card img{ 
+        width: 279px; 
+        height: 182px; 
+    } 
+    .card p{ 
+         
+        font-family: Roboto; 
+        font-size: 14px; 
+        font-weight: 300; 
+        line-height: 16.41px; 
+    } 
+    .card h3{ 
+        font-family: Roboto; 
+        font-size: 30px; 
+        font-weight: 700; 
+        line-height: 35.16px; 
+    } 
+     .cardd{ 
+         width: 270px; 
+         margin-top: 80px; 
+         /* margin: 0 auto; */ 
+     } 
+     .cardd p{ 
+        font-family: Roboto; 
+        font-size: 12px; 
+        font-weight: 300; 
+        line-height: 14.06px; 
+        text-align: center; 
+     } 
+     .carddd{ 
+        width: 270px; 
+        margin-top: 80px; 
+        /* margin: 0 auto; */ 
+     } 
+     .carddd p{ 
+        font-family: Roboto; 
+        font-size: 12px; 
+        font-weight: 300; 
+        line-height: 14.06px; 
+        text-align: center; 
+ 
+     } 
+     .cards{ 
+         width: 270px; 
+         /* margin: 0 auto; */ 
+         margin-top: 80px; 
+     } 
+     .cards p{ 
+        font-family: Roboto; 
+        font-size: 12px; 
+        font-weight: 300; 
+        line-height: 14.06px; 
+        text-align: center; 
+     } 
+     .cardd img{ 
+        position: absolute; 
+        left: 65px; 
+        top: -100px; 
+     } 
+     .carddd img{ 
+        position: absolute; 
+        left: 65px; 
+        top: -100px; 
+     } 
+     .cards img{ 
+        position: absolute; 
+        left: 65px; 
+        top: -100px; 
+     } 
+     .articul{ 
+        padding: 10px; 
+     } 
+}
